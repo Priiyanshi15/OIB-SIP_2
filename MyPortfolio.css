@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(Me.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 561px;
+    margin-top: 20px;
+    
+}
+
+.content{
+    background-color: white;
+    display: inline-block;
+    width: 760px;
+    /* height: 60vh; */
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 68px;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    line-height: 3.8;
+    transition: all 0.3s linear;
+}
+
+/* .navbar ul li :hover{
+    color: blue;
+} */
+
+.effect{
+    transition: all 0.3s linear;
+}
+
+.effect :hover{
+    color: rgb(90, 146, 203);
+}
+
+
+/* .content{
+    height: 50vh;
+    width: 70%;
+    background-color:grey;
+    display: inline-block;
+} */
+
+.intro{
+    height: 172px;
+    width: 657px;
+    background-color: grey;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+    border-right: 6px solid black ;
+    margin : 0px 20px 20px 0px;
+    display: inline-block;
+    padding: 40px;
+}
+
+.intro h1{
+    color: rgba(155, 53, 70, 0.927);
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 33px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.intro p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-family: 'Bacasime Antique', cursive;
+    color: purple;
+}
+
+.intro a{
+    height: 20px;
+    width: 40px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: black;
+    box-sizing: border-box;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* .image{
+    height: 50vh;
+    width: 23%;
+    display: inline-block;
+    background-color: black;
+} */
+
+#project{
+     font-size: 20px;
+     padding: 10px;
+     color: black;
+     font-weight: 600;
+}
+
+.skills{
+    height: 76vh;
+    background-color: grey;
+    width: 737px;
+    border-top: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.skills div img{
+    /* display: inline; */
+    margin: 30px;
+    margin-left: 29px;
+}
+
+.images{
+    margin-left: 195px;
+}
+
+.right{
+    margin-left: 0px;
+}
+
+.skills h1{
+    margin: 20px;
+    padding: 13px;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.contact{
+    height: 54vh;
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+}
+
+.contact h3{
+    color: rgb(171, 160, 160);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+div#first{
+    padding-left: 15px;
+}
+
+.effect a{
+     color: white;
+     text-decoration: none;
+}
+
+
+
+
+
+
+
+
